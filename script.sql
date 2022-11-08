@@ -1,4 +1,6 @@
 DROP TABLE IF EXISTS empleado;
+DROP TABLE IF EXISTS zona_almac_producto;
+DROP TABLE IF EXISTS producto;
 DROP TABLE IF EXISTS zona;
 DROP TABLE IF EXISTS vivero;
 
@@ -28,6 +30,18 @@ VALUES(1, 'ALMACEN', 11);
 
 SELECT *
 FROM zona;
+
+CREATE TABLE producto (
+	producto_id INT PRIMARY KEY,
+	nombre VARCHAR(100) NOT NULL,
+	precio NUMERIC(6,2)
+);
+
+INSERT INTO producto
+VALUES(111, 'PRODUCTO1', 21.50);
+
+SELECT *
+FROM producto;
 
 CREATE TABLE empleado (
 	dni VARCHAR(9) PRIMARY KEY,
