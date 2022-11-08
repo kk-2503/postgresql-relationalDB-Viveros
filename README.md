@@ -1,6 +1,6 @@
 # Modelo Relacional. Viveros
 
-![Entidad Relacion](https://github.com/kk-2503/postgresql-relationalDB-Viveros/blob/master/pr3.drawio%20(1).png)
+![Entidad Relacion](https://github.com/kk-2503/postgresql-relationalDB-Viveros/blob/master/pr3.drawio.png)
 
 Noelia Ibáñez Silvestre - alu0101225555@ull.edu.es
 
